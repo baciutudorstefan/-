@@ -1,0 +1,87 @@
+.right_component {
+  font-size: 64px;
+  font-style: normal;
+  line-height: 83.2px;
+}
+
+.right_component__navigation {
+  height: 728px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.right_component__navigation___project {
+  background-color: #393939;
+  box-sizing: border-box;
+  color: #ffffff;
+  width: 100%;
+  padding: 32px 0px 32px 48px;
+}
+
+#root > div > div > div.right_component > section > div:not(:nth-child(1)) {
+  margin-top: 16px;
+}
+
+.right_component__navigation___project____technology,
+.right_component__navigation___project____description,
+.right_component__navigation___project____rating {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+.right_component__navigation___project____title {
+  color: #fff84b;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  padding-top: 24px;
+}
+
+.right_component__navigation___project____description {
+  padding-top: 8px;
+}
+
+.right_component__navigation___project____rating {
+  margin-top: 32px;
+}
+
+.right_component__navigation___project:hover,
+.right_component__navigation___project:hover * {
+  background-color: #fff84b;
+  color: #292929 !important;
+  cursor: pointer;
+}
+
+.right_component__description {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 32px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 144px;
+}
+#root
+  > div
+  > div
+  > div.right_component
+  > section.right_component__description
+  > p {
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+}
+
+.contactMail {
+  color: #fff84b;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+}

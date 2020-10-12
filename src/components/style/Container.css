@@ -1,0 +1,29 @@
+/* @font-face {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Bold"), local("OpenSans"),
+    url ("./style/Fonts/IBMPlexSans-Bold.ttf") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Regular"), local("OpenSans"),
+    url ("./style/Fonts/IBMPlexSans-Regular.ttf") format("embedded-opentype");
+} */
+.container {
+  background-color: #292929;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 30.05% 34.17%;
+  gap: 10.83%;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 4em;
+  font-weight: 400;
+  height: 100%;
+  margin: 0 auto;
+  padding: 96px 240px 68px 240px;
+}

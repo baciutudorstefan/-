@@ -1,0 +1,32 @@
+.left_component {
+  font-size: 80px;
+  font-style: normal;
+  line-height: 104px;
+}
+
+#root > div > div > div.left_component > section > span:nth-child(1) {
+  font-weight: 500;
+}
+#root > div > div > div.left_component > section > span:nth-child(2) {
+  font-weight: 300;
+}
+
+#root > div > div > div:nth-child(1) > section > span:nth-child(4) {
+  color: #fff84b;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 104px;
+}
+
+.left_component__description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 40px;
+}
+
+.left_component__thumbnail {
+  width: 577px;
+  height: 608px;
+  margin-top: 72px;
+}
